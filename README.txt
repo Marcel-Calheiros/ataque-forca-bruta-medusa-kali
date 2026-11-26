@@ -20,6 +20,7 @@ user
 postgres
 root
 admin
+
 passwords.txt
 
 msfadmin
