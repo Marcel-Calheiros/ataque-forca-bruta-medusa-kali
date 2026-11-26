@@ -10,6 +10,7 @@ Alvo: Metasploitable 2
 Rede: Rede interna / host-only - mesma rede
 IP do alvo: 10.0.9.15 (hostname: metasploitable)
 Ferramentas: Nmap, Medusa, Hydra, Enum4linux
+
 2. Wordlists utilizadas
 Criei wordlists simples para o lab:
 
@@ -89,6 +90,7 @@ Validei os acessos encontrados:
 FTP: login com msfadmin / msfadmin funcionou
 DVWA: login com admin / password funcionou
 SMB: login com msfadmin / msfadmin funcionou com acesso ADMIN$
+
 9. Mitigação / Como se Defender
 Nunca usar senha igual ao usuário e trocar todas as senhas padrão
 Senhas fortes + MFA onde for possível
@@ -98,14 +100,15 @@ Desativar FTP e usar SFTP/FTPS, ou pelo menos não expor na rede
 Trocar porta padrão não é segurança, o importante é o controle de acesso
 Monitorar logs de tentativas de login falhas em sequência
 Desativar contas desnecessárias se não forem usadas
+
 10. O que aprendi
 Diferença entre força bruta (muitas senhas em 1 usuário) e password spraying (1 senha em muitos usuários)
 Como identificar portas e serviços com Nmap antes de atacar
 Como o FTP na porta 2121 muda o comando e por que sempre checar a porta real
 Como o SMB permite enumeração sem autenticação se estiver mal configurado
 Como documentar um teste de forma que outra pessoa consiga reproduzir
-11. Arquivos do projeto
 
+11. Arquivos do projeto
 /README.md
 /users.txt
 /passwords.txt
