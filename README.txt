@@ -113,5 +113,6 @@ Como documentar um teste de forma que outra pessoa consiga reproduzir
 /users.txt
 /passwords.txt
 /images/
+
 12. Prints
 Prints dos testes estão na pasta /images.
